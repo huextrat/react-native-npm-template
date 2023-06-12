@@ -1,0 +1,62 @@
+{
+  "name": "react-native-npm-template",
+  "version": "0.0.1",
+  "description": "Template to quickly create a React Native library",
+  "author": {
+    "name": "Hugo EXTRAT",
+    "email": "extrat.h@gmail.com",
+    "url": "https://www.github.com/huextrat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huextrat/react-native-npm-template"
+  },
+  "bugs": {
+    "url": "https://github.com/huextrat/react-native-npm-template/issues"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "lint": "eslint ./src",
+    "lint:fix": "eslint --fix ./src",
+    "format": "prettier --write ./src",
+    "format:check": "prettier --check --cache ./src",
+    "prepare": "husky install",
+    "build": "tsc",
+    "release": "semantic-release"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.6.5",
+    "@commitlint/config-conventional": "17.6.5",
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/git": "10.0.1",
+    "@types/jest": "29.5.2",
+    "@types/node": "20.3.0",
+    "@types/react": "18.2.12",
+    "@types/react-native": "0.72.2",
+    "@typescript-eslint/eslint-plugin": "5.59.11",
+    "@typescript-eslint/parser": "5.59.11",
+    "eslint": "8.42.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-react": "7.32.2",
+    "husky": "8.0.3",
+    "prettier": "2.8.8",
+    "react": "18.2.0",
+    "react-native": "0.71.10",
+    "semantic-release": "21.0.5",
+    "typescript": "5.1.3"
+  }
+}
