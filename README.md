@@ -1,8 +1,5 @@
 # react-native-npm-template
 
-[![License](https://img.shields.io/npm/l/react-native-maps-routes.svg?style=for-the-badge)](LICENSE.md)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/huextrat/react-native-maps-routes.svg?style=for-the-badge)](https://github.com/huextrat/react-native-maps-routes)
-
 > [React Native](https://github.com/facebook/react-native) - v0.72.3
 > 
 > [React](https://github.com/facebook/react) - v18.2.0
