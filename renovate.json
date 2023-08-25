@@ -4,8 +4,10 @@
     "config:base"
   ],
   "ignoreTests": true,
-  "lockFileMaintenance": {
-    "enabled": true,
-    "automerge": true
-  }
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    }
+  ]
 }
